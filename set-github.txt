@@ -1,0 +1,20 @@
+1. Buat akun github
+
+2. [command prompt]
+pindah directory ke project yang ingin di deploy sesi_5a
+
+3. git init
+
+4. set config user.name & user.email di local (ketik di command prompt)
+git config --local user.name "username_anda"
+git config --local user.email email_anda
+
+5. check apakah user.name & user.email sudah terganti
+git config --list
+(keluar dengan klik escape terus ketik :q)
+
+6. buat file .gitignore kemudian isi didalamnya dengan:
+.venv
+
+
+7. buat repository baru di github
